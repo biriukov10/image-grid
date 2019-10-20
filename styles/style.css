@@ -16,14 +16,14 @@ body {
 .ba-row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 [class^='ba-col'] {
   padding: 0 15px;
 }
 .ba-row + .ba-row {
-  /* margin-top: 1rem;   */
+  margin-top: 1rem;  
 }
 .ba-col-12 {
   width: 100%;
@@ -63,4 +63,9 @@ body {
 }
 [class^='ba-col-'] {
   padding: 0 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
 }
